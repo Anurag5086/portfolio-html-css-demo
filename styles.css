@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 150px;
+    background-color: #0f0c27;
+    color: white;
+    border-bottom: solid 0.2px grey;
+    
+}
+
+.navbar {
+    display: flex;
+    margin-left: 10px;
+    justify-content: space-between;
+    width: 30%;
+    list-style: none;
+    padding-top: 10px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 1.8rem;
+    margin-left: 25px;
+    font-weight: 600;
+}
+
+ul a {
+    font-size: 1rem;
+}
+
+.home{
+    background-color: #0f0c27;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social {
+    height: 100px;
+}
+
+section {
+    padding: 100px 10%;
+}
+
+.social a i {
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 1rem;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.home-text {
+    color: white;
+    margin-top: 50px;
+}
+
+.contact-me {
+    color: white;
+    text-decoration: none;
+    background-color: #033a80;
+    padding: 12px 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.home-img img {
+    height: 400px;
+    width: 500px;
+}
+
+.heading-name {
+    font-size: 2.5rem;
+}
+
+.para-home {
+    margin: 20px 0px;
+    font-size: 1.2rem;
+}
+.aboutme {
+    text-align: center;
+    background-color: #0f0c27;
+    color: white;
+}
+
+.aboutme-section {
+    display: flex;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.my-img {
+    border-radius: 20px;
+}
+
+.image-section {
+    margin-left: 50px;
+}
+
+.aboutme-text {
+    width: 50%;
+    margin-left: 20%;
+}
+
+.icons-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.aboutme-heading {
+    font-size: 2.5rem;
+}
+
+.skills {
+    text-align: center;
+    background-color: #0f0c27;
+    color: white;
+    padding: 10%;
+}
+
+.bars-box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+    /* width: 100%; */
+}
+
+.skills-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.light-bar {
+    width: 100%;
+    background: hsla(260, 100%, 44%, 0.4);
+    height: 0.5rem;
+    position: absolute;
+    top: 10;
+    bottom: 0;
+}
+
+.skill-bar {
+    width: 40%;
+}
+
+.percent-bar {
+    position: absolute;
+    top: 10;
+    bottom: 0;
+    background-color: #033a80;
+    height: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.html-bar {
+    width: 94%;
+}
+
+.css-bar {
+    width: 90%;
+}
+
+.js-bar {
+    width: 95%;
+}
+
+.react-bar {
+    width: 90%;
+}
+
+.skill-heading {
+    font-size: 2.5rem;
+}
+
+.projects {
+    background-color: #0f0c27;
+    color: white;
+    text-align: center;
+}
+
+.project-heading {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+
+.projects img {
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.contact-form {
+    background-color: #0f0c27;
+    color: white;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form input, textarea {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #150b3a;
+    text-decoration: none;
+    border: 0;
+    
+}
+
+.form input, textarea {
+    padding: 10px;
+    color: white;
+}
+
+.contact-me-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.submit {
+    margin-top: 40px;
+    width: 20%;
+    background-color: #033a80;
+    color: white;
+    padding: 10px 15px;
+    margin: 0px auto;
+    cursor: pointer;
+}
